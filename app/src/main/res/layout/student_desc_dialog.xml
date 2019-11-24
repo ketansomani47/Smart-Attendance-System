@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewSName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Mobile"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewSMobile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewSEmail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Parent Name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewParentName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Parent Mobile"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewParentMobile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Parent Email"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewParentEmail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Semester"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewSSemester"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Branch"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewSBranch"/>
+
+
+</LinearLayout>

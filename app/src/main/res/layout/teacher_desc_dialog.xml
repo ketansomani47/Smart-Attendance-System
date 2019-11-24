@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Mobile"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTMobile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTEmail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Qualification"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTQualification"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Subject"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTSubject"/>
+
+<!--
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Semester"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTSemester"/>
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Branch"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textViewTBranch"/>
+-->
+
+
+</LinearLayout>

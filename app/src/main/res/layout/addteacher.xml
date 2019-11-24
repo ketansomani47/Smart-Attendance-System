@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#8c2cc7">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Teacher"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonAddTeacher"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonAddTeacher">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:textSize="18sp"
+        android:hint="Teacher Name"
+        android:background="@drawable/text_back"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextTName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:hint="Teacher Mobile"
+        android:background="@drawable/text_back"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editTextTName"
+        android:id="@+id/editTextTMobile"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Branch"
+        android:id="@+id/branchSpinnerTeacher"
+        android:layout_below="@id/editTextTMobile"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Semester"
+        android:layout_below="@id/branchSpinnerTeacher"
+        android:layout_marginTop="16dp"
+        android:id="@+id/semesterSpinnerTeacher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/semesterSpinnerTeacher"
+            android:hint="Select Subjects"
+            android:paddingLeft="5dp"
+            android:id="@+id/textViewSubjectList"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:hint="Email"
+        android:id="@+id/editTextTEmail"
+        android:layout_below="@id/textViewSubjectList"
+        android:background="@drawable/text_back"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/qualification"
+        android:layout_below="@id/editTextTEmail"
+        android:layout_marginTop="16dp"
+        android:id="@+id/qualificationSpinner"
+        />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#478001">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSendNews"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNews"
+        android:layout_alignParentBottom="true"
+        android:hint="Add News"
+        android:layout_toLeftOf="@id/buttonSendNews"
+        android:textSize="18sp"
+        android:inputType="textCapSentences"
+        android:background="@drawable/box"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonSendNews"
+        android:id="@+id/listViewNews"
+        android:layout_marginBottom="5dp">
+
+    </ListView>
+
+</RelativeLayout>

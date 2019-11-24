@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcc206"
+    android:padding="10dp">
+<android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box"
+    android:id="@+id/verticalMarqueeTextView"
+    app:marqueeSpeed="25"
+    app:text=""
+    app:textColor="#000"
+    app:textSize="16sp"
+    app:textStyle="normal"
+
+    >
+
+</android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView>
+
+</LinearLayout>

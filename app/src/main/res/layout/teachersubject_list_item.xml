@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/circleImageTSub"
+        android:background="@drawable/oval"
+        android:text="S"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/circleImageTSub"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Subject Name"
+        android:textSize="18sp"
+        android:paddingTop="5dp"
+        android:id="@+id/textViewTSubName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/circleImageTSub"
+        android:layout_below="@id/textViewTSubName"
+        android:paddingBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:text="Semester"
+        android:textSize="18sp"
+        android:id="@+id/textViewTSubSem"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/circleImageTSub"
+        android:layout_below="@id/textViewTSubSem"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        android:text="Branch Name"
+        android:id="@+id/textViewTSubBranch"/>
+</RelativeLayout>

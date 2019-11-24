@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/box">
+    <FrameLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/frameLayout">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/studenticon"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/circleTextView"
+            android:background="@drawable/oval"
+            android:gravity="center"
+            android:text="T"
+            android:textSize="36sp" />
+    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/deleteImageView"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_create_black_24dp"
+        android:padding="5dp"
+        android:layout_toLeftOf="@id/deleteImageView"
+        android:id="@+id/updateImageView"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Name"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/frameLayout"
+        android:layout_toLeftOf="@id/updateImageView"
+        android:id="@+id/textViewName"/>
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Mobile"
+        android:textSize="18sp"
+        android:textColor="#000"
+       android:layout_marginLeft="5dp"
+       android:layout_below="@id/textViewName"
+        android:layout_toRightOf="@id/frameLayout"
+        android:layout_toLeftOf="@id/updateImageView"
+       android:id="@+id/textViewMobile"/>
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Name"
+        android:textSize="18sp"
+        android:textColor="#000"
+       android:layout_marginLeft="5dp"
+       android:layout_below="@id/textViewMobile"
+        android:layout_toRightOf="@id/frameLayout"
+
+       android:id="@+id/textViewSubject"/>
+
+
+</RelativeLayout>
